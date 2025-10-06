@@ -28,7 +28,7 @@ print new_address2
 ```bash
 puts new_address2
 ```
-Print each item of array in `newline` and in `1 line` when a single string. It shows quotes
+Print each item of array in `newline` and in `1 line` when a single string. `It shows quotes`
 ```bash
 
 ```
