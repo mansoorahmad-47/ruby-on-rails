@@ -9,33 +9,44 @@ address = [1,2,3,4,5,6,7,8]
 p address 
 ```
 This prints the address array.
+<br>
+<br>
 
 
 ```bash
 new_address = address.reverse! 
 ```
 The reverse! method will reverse data and destroy the original address with the new reversed one.
-
+<br>
+<br>
 
 ```bash
 p new_address  
 ```
 Print in new line, and `show quotes` signs of string.
+<br>
+<br>
 
 ```bash
 new_address2 = address.reverse
 ```
 Meanwhile the reverse only reverse the address and save it in new_address2 but the original address remains the same as before.
+<br>
+<br>
 
 ```bash
 print new_address2
 ```
 `No quote signs,` Print everything in only `1 line` without giving a newline.
+<br>
+<br>
 
 ```bash
 puts new_address2
 ```
 Print each item of array in `newline` and in `1 line` when a single string. `No quotes`.
+<br>
+<br>
 
 
 #### Variables Declaration
@@ -46,6 +57,8 @@ Address = [1,2,3,4,5]
 OR
 ADDRESS = [1,2,3,4,5]
 ```
+<br>
+<br>
 
 #### About Return
 
@@ -65,6 +78,8 @@ p 'hello'
 Output: "hello"
 => "hello"
 ```
+<br>
+<br>
 
 ## Function Definition
 
@@ -79,6 +94,8 @@ output: hello world
 => nil
 ```
 This is how you define and call a function in ruby.
+<br>
+<br>
 
 ```bash
 def hello_function(something_to_say)     # something_to_say is a parameter
