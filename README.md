@@ -57,8 +57,6 @@ Address = [1,2,3,4,5]
 OR
 ADDRESS = [1,2,3,4,5]
 ```
-<br>
-<br>
 
 #### About Return
 
@@ -78,8 +76,7 @@ p 'hello'
 Output: "hello"
 => "hello"
 ```
-<br>
-<br>
+
 
 ## Function Definition
 
