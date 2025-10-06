@@ -138,7 +138,7 @@ puts '#{firstname} #{lastname}'    # String interpolation doesn't work in single
 
 output:
 Mansoor Ahmad
-`#{firstname} #{lastname}`
+#{firstname} #{lastname}
 ```
 ```bash
 
