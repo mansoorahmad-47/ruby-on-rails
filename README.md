@@ -29,8 +29,14 @@ print new_address2
 puts new_address2
 ```
 Print each item of array in `newline` and in `1 line` when a single string. `It shows quotes`
-```bash
 
+### Variables Declaration
+
+No need to use `let, var etc`. For `const` we declare the variable by first letter as Capital or ALL-CAPS `Address or ADDRESS`
+```bash
+Address = [1,2,3,4,5]
+OR
+ADDRESS = [1,2,3,4,5]
 ```
 ```bash
 
