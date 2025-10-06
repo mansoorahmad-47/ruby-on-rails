@@ -8,29 +8,35 @@ address = [1,2,3,4,5,6,7,8]
 ```bash
 p address 
 ```
-This prints the address array
+This prints the address array.
+
 ```bash
 new_address = address.reverse! 
 ```
-The reverse! method will reverse data and destroy the original address with the new reversed one
+The reverse! method will reverse data and destroy the original address with the new reversed one.
+
 ```bash
 p new_address  
 ```
-Print in new line, and `show quotes` signs of string
+Print in new line, and `show quotes` signs of string.
+
 ```bash
 new_address2 = address.reverse
 ```
-Meanwhile the reverse only reverse the address and save it in new_address2 but the original address remains the same as before 
+Meanwhile the reverse only reverse the address and save it in new_address2 but the original address remains the same as before.
+
 ```bash
 print new_address2
 ```
-`No quote signs,` Print everything in only `1 line` without giving a newline
+`No quote signs,` Print everything in only `1 line` without giving a newline.
+
 ```bash
 puts new_address2
 ```
-Print each item of array in `newline` and in `1 line` when a single string. `It shows quotes`
+Print each item of array in `newline` and in `1 line` when a single string. `No quotes`.
 
-### Variables Declaration
+
+#### Variables Declaration
 
 No need to use `let, var etc`. For `const` we declare the variable by first letter as Capital or ALL-CAPS `Address or ADDRESS`
 ```bash
@@ -38,14 +44,24 @@ Address = [1,2,3,4,5]
 OR
 ADDRESS = [1,2,3,4,5]
 ```
-```bash
 
+#### About Return
+
+Everything in Ruby always returns something, except `puts` and `print` which returns `nil`.
+```bash
+print 'hello'
+Output: hello
+=> nill
 ```
 ```bash
-
+puts 'hello'
+Output: hello
+=> nill
 ```
 ```bash
-
+p 'hello'
+Output: "hello"
+=> "hello"
 ```
 ```bash
 
