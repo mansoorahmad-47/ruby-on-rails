@@ -1,1 +1,3 @@
-# ruby-on-rails
+# Ruby on Rails
+
+## p, puts, print, variables, and reverse
