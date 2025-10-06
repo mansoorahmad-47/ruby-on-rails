@@ -24,7 +24,7 @@ Meanwhile the reverse only reverse the address and save it in new_address2 but t
 ```bash
 print new_address2
 ```
-No quote signs, Print everything in only one line without giving a newline
+`No quote signs,` Print everything in only `1 line` without giving a newline
 ```bash
 puts new_address2
 ```
