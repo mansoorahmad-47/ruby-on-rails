@@ -10,10 +10,12 @@ p address
 ```
 This prints the address array.
 
+
 ```bash
 new_address = address.reverse! 
 ```
 The reverse! method will reverse data and destroy the original address with the new reversed one.
+
 
 ```bash
 p new_address  
