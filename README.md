@@ -63,6 +63,66 @@ p 'hello'
 Output: "hello"
 => "hello"
 ```
+
+## Function Definition
+
+```bash
+def hello_function  #Function defined
+ puts "hello world"
+end                #Function ended
+
+hello_function     #Function called
+
+output: hello world
+=> nil
+```
+This is how you define and call a function in ruby.
+
+```bash
+def hello_function(something_to_say)     # something_to_say is a parameter
+ puts something_to_say
+end                
+
+hello_function "Say Hi"
+OR
+hello_function("Say Hi")
+
+output: Say Hi
+=> nil
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
 ```bash
 
 ```
