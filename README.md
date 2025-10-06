@@ -109,11 +109,36 @@ hello_function("Say Hi")
 output: Say Hi
 => nil
 ```
+<hr>
+
+## Working with Strings
+
+#### String Concatenation
+
 ```bash
+firstname = "Mansoor"
+lastname = "Ahmad"
+
+puts firstname + lastname
+puts firstname + " " + lastname
+
+output: 
+MansoorAhmad
+Mansoor Ahmad
 
 ```
-```bash
+<hr>
 
+#### String Interpolation
+
+```bash
+puts "#{firstname} #{lastname}"
+
+puts '#{firstname} #{lastname}'    # String interpolation doesn't work in single quoted commas
+
+output:
+Mansoor Ahmad
+`#{firstname} #{lastname}`
 ```
 ```bash
 
