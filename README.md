@@ -47,7 +47,7 @@ puts new_address2
 Print each item of array in `newline` and in `1 line` when a single string. `No quotes`.
 <br>
 <br>
-
+<hr>
 
 #### Variables Declaration
 
@@ -57,6 +57,8 @@ Address = [1,2,3,4,5]
 OR
 ADDRESS = [1,2,3,4,5]
 ```
+<hr>
+
 
 #### About Return
 
@@ -77,6 +79,7 @@ Output: "hello"
 => "hello"
 ```
 
+<hr>
 
 ## Function Definition
 
