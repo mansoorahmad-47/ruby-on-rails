@@ -256,7 +256,7 @@ In ruby sometimes we need to escape some special characters in text which can ca
 
 ```bash
 'My name is 'Mansoor Ahmad''             # This will give an error
-'My name is \'Mansoor Ahmad\''           # Now using backslash We are escaping the comma after every slash to avoid errors
+'My name is \'Mansoor Ahmad\''         ' # Now using backslash We are escaping the comma after every slash to avoid errors. Note: Ignore the last quotation mark as in Readme.md file without this the comment was showing as a command.
 
 # output:
 # error
