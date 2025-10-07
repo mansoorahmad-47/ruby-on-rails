@@ -286,7 +286,7 @@ You definitely will get the output like this `My name is \#{fullname}`. As singl
 # My name is \#{fullname}
 
 ```
-
+You can see we can use backslash for escaping any special character we want.
 
 <!-- 
 ```bash
