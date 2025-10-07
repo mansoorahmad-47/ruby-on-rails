@@ -286,6 +286,9 @@ You definitely will get the output like this `My name is \#{fullname}`. As singl
 # My name is \#{fullname}
 
 ```
+
+
+<!-- 
 ```bash
 
 ```
@@ -332,4 +335,4 @@ You definitely will get the output like this `My name is \#{fullname}`. As singl
 
 ```
 
-   
+    -->
