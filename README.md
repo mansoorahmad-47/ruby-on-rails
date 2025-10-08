@@ -287,35 +287,114 @@ You definitely will get the output like this `My name is \#{fullname}`. As singl
 
 ```
 You can see we can use backslash for escaping any special character we want.
+<br>
+<br>
+<hr>
 
+#### Getting input from user
+
+We use `gets.chomp` to get a string from user. Remember it will be a string only.
+
+```bash
+puts "What is your first name?"
+firstname = gets.chomp
+puts "What is your last name?"
+lastname = gets.chomp
+puts "Add a number to multiply it with 2"
+number = gets.chomp
+
+puts "Your first name is #{firstname} and your last name is #{lastname}"
+puts number.to_i * 2                        # You have to convert the string to integer otherwise it will do concatenation
+
+# output:
+# Your first nameis Mansoor and your last name is Ahmad
+# product of input number and 2
+```
+Here we used `.to_i` to convert the given number by user to integer, as `gets.chomp` can take strings only.
+<br>
+<br>
+
+```bash
+puts "Enter your first name?"
+firstname = gets.chomp
+puts "Enter your last name?"
+lastname = gets.chomp
+
+puts "Your full name is #{firstname} #{lastname}"
+puts "Your full name reversed is #{lastname.reverse} #{firstname.reverse}"
+puts "Your name has #{firstname.length + lastname.length} characters in it"
+
+# output:
+# Your full name is Mansoor Ahmad
+# Your full name reversed is damhA roosnaM
+# Your name has 12 characters in it
+
+```
+<br>
+<br>
+<hr>
+
+## Working with Numbers
+
+```bash
+10/2
+10/4                       # It will give 2 as answer because nominator and denominator both are integers and not float
+10.0/4                     # Converting any one out of nominator and denominator to float will work
+10/4.0
+10/4.to_f                  # Or you can directly use the .to_f to convert the integer to float
+
+# output:
+# 5
+# 2
+# 2.5
+# 2.5
+# 2.5
+```
+For division it is necessary to use float for float output.
+<br>
+<br>
+<hr>
+
+```bash
+"5" * "5"
+"5" * 5
+"-" * 20
+2 * "5"
+20.times {print "-"}
+20.times {puts rand(10)}           # Print 20 random numbers from 0 to 9
+rand
+rand(100)                          # Print a random number from 0 to 99                  
+'hello'.to_i                       # Will print 0
+
+output:
+error
+55555
+--------------------
+error
+--------------------
+random numbers from 0 to 10  20 times
+a random number
+a random number from 0 to 99
+0
+
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
 <!-- 
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
 ```bash
 
 ```
