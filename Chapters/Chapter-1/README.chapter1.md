@@ -385,25 +385,70 @@ rand
 rand(100)                          # Print a random number from 0 to 99                  
 'hello'.to_i                       # Will print 0
 
-output:
-error
-55555
---------------------
-error
---------------------
-random numbers from 0 to 10  20 times
-a random number
-a random number from 0 to 99
-0
+# output:
+# error
+# 55555
+# --------------------
+# error
+# --------------------
+# random numbers from 0 to 10  20 times
+# a random number
+# a random number from 0 to 99
+# 0
+```
+
+#### Comparison Operators
+
+```bash
+10 == 10                       # Comparison, But it doesn't work like how it works in javascript. Like if we use "5" == 5, it will show false instead of true as it doesn't convert the type or compare the values only. It will also compare the type too.
+10 === 10.0                    # Comparison, But this also doesn't work like how it works in javascript. Case / pattern equality
+10 != 10                       
+10 < 11
+10 > 9
+10 >= 9
+10 <= 9
+10.eql?(10.0)                  # False. It compares the type too
+10.eql?("10")                  # False.
+a = 10
+b = 10
+c = 10.0
+a.eql?(b)                      # True
+a.eql?(c)                      # False
 
 
+# output:
+# true
+# true
+# false
+# true
+# true
+# true
+# false
+# false
+# false
+# 10
+# 10
+# 10.0
+# true
+# false
 ```
 ```bash
+# Numbers
+(1..10) === 5    # true   (5 is in the range)
+(1..10) === 11   # false
 
-```
-```bash
+# Strings
+"hello" === "hello"  # true (for String, behaves like ==)
 
+# Classes
+String === "hi"   # true  (the object "hi" is a String)
+Integer === "hi"  # false
+
+# Regex
+/ell/ === "hello" # true  ("hello" matches /ell/)
 ```
+
+#### Methods
 ```bash
 
 ```
