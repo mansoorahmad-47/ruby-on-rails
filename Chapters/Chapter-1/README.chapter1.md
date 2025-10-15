@@ -396,6 +396,9 @@ rand(100)                          # Print a random number from 0 to 99
 # a random number from 0 to 99
 # 0
 ```
+<br>
+<br>
+<hr>
 
 #### Comparison Operators
 
@@ -447,9 +450,45 @@ Integer === "hi"  # false
 # Regex
 /ell/ === "hello" # true  ("hello" matches /ell/)
 ```
+<br>
+<br>
+<hr>
 
 #### Methods
+
+Here we will see how to implement methods in ruby.
+
 ```bash
+def maths(a, b, operator)
+  if(operator == "+")
+    return a + b
+  elsif(operator == "-")
+    return a - b
+  elsif(operator == "*")
+    return a * b
+  elsif(operator == "/")
+    return a / b
+  elsif(operator == "%")
+    return a % b
+  end                                        # In ruby you must use end for closing every block you opened, this one is for if elsif etc
+end
+puts "enter First Number"
+   a = gets.chomp.to_f
+puts "enter Second Number"
+   b = gets.chomp.to_f
+puts "enter operation you want to use"
+   operator = gets.chomp
+
+puts "Your answer for the operation #{operator} is #{maths(a,b,operator)}"
+
+puts "#{testing}"            # It will give an error because the testing method is not defined before this print, you must define it before using it. It's not like javascript
+
+def testing
+  puts "Working"
+end
+
+puts "#{testing}"
+
 
 ```
 ```bash
