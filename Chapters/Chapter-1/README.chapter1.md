@@ -7,6 +7,9 @@ address = [1,2,3,4,5,6,7,8]
 
 ```bash
 p address 
+
+# output:
+# [1,2,3,4,5,6,7,8]
 ```
 This prints the address array.
 <br>
@@ -22,6 +25,9 @@ The `reverse!` method will reverse data and destroy the original address with th
 
 ```bash
 p new_address  
+
+# output:
+# [8,7,6,5,4,3,2,1]
 ```
 Print in new line, and `show quotes` signs of string.
 <br>
@@ -37,6 +43,9 @@ Reverse can work on strings too.
 
 ```bash
 print new_address2
+
+#output:
+# [8,7,6,5,4,3,2,1]
 ```
 `No quote signs,` Print everything in only `1 line` without giving a newline.
 <br>
@@ -44,6 +53,16 @@ print new_address2
 
 ```bash
 puts new_address2
+
+# output:
+# 8
+# 7
+# 6
+# 5
+# 4
+# 3
+# 2
+# 1
 ```
 Print each item of array in `newline` and in `1 line` when a single string. `No quotes`.
 <br>
