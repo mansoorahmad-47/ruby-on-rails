@@ -400,7 +400,7 @@ rand(100)                          # Print a random number from 0 to 99
 <br>
 <hr>
 
-#### Comparison Operators
+## Comparison Operators
 
 ```bash
 10 == 10                       # Comparison, But it doesn't work like how it works in javascript. Like if we use "5" == 5, it will show false instead of true as it doesn't convert the type or compare the values only. It will also compare the type too.
@@ -454,7 +454,7 @@ Integer === "hi"  # false
 <br>
 <hr>
 
-#### Methods
+## Methods and Branching/if-else
 
 Here we will see how to implement methods in ruby.
 
@@ -488,16 +488,303 @@ def testing
 end
 
 puts "#{testing}"
+```
+<br>
+<br>
+<hr>
 
+## Arrays and Iterators
+
+Now we will study some useful methods of array.
+
+```bash
+a = [1,2,3,4,5,6,7,8.9]
+# OR
+a = (1..10).to_a                       # (1..10) we use double dot .. for range, and to_a to convert a range to an array full of the numbers of that range.
+a.first                                # For showing first number
+a.last                                 # For showing last number
 
 ```
-```bash
+`.first` and `.last` are used to show first and last indexes data.
+<br>
+<br>
 
-```
 ```bash
+a.class                              
+a.methods
+
+a.shuffle                              # Will shuffle all data in array but not make it permanently change in variable a
+a.shuffle!                             # Will shuffle all data in array and make it permanently shuffled in variable a
+
+# What not to do
+(1..10).shuffle                        # No it will not work, will give an error
+# ---------------------------------------------------------------------------------
+```
+`.shuffle` and `.shuffle!` both are used for shuffeling the data in the array.
+<br>
+<br>
+
+```bash
+a.reverse
+a.reverse!
+```
+And then ofcourse `.reverse` and `.reverse!` used for reversing the array data.
+<br>
+<br>
+
+```bash
+a.length
+a.count
+```
+`.length` for array length and `.count` also for total numbers of data saved or total number of indexes, which is the total length of the array ofcourse.
+<br>
+<br>
+
+```bash
+a.unshift('testing')               # Used for adding something to the start or [0] index of the array
+a.shift                            # Removing something from starting or [0] index of the array
+a.push('testing')                  # Adding something to the end of the array
+a.pop                              # Removing something from the end of the array
+
+a.append('Test')                   # Same like push, to add something to the end
+```
+<br>
+<br>
+
+```bash
+a.uniq                             # To remove duplicates and show just the unique data
+a.uniq!                            # Same thing but permanent change
+
+a.include?("Testing")              # To check if the given data is available in the array or not
+
+a.join                             # Will make all the data of every index to be joined in one string
+a.join("-")                        # Will make it join but every item will have the - after it, except the last index data
+```
+<br>
+<br>
+
+```bash
+b = a.join("-")
+
+a.split                           # It will just make the whole converted and joined text to be added to an array, but still it will not be separated
+
+b.split("-")                      # It will split every item by - if it was joined by -
+
+c = a.join
+c.split("")                       # It will just split it
+```
+Remember that `split` will always work on a string and not a number, if an array of numbers is converted to a string by join or using on a string so then it will definetly split it to an array having all items saved in indexes as a `string`.
+<br>
+<br>
+
+```bash
+%w(a b c d e f)
+%w(1 2 3 4 5 6)                         # Both of these will change the given data to an array but the data stored in every index will be as string
+```
+You must use spaces between.
+<br>
+<br>
+
+```bash
+for i in a                              # The for-loop
+ print i
+end
+
+# OR
+
+a.each do |i|
+ print i
+end
+
+# OR
+
+a.each {|i| print i}
+
+
+a.select {|i| i.odd? }                # This will select and print every odd number fromt he array       
+a.filter {|i| i.odd? }                # The same thing as select, both are one
 
 ```
 <!-- 
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+``````bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
 ```bash
 
 ```
