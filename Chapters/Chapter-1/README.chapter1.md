@@ -544,6 +544,8 @@ a.count
 a.unshift('testing')               # Used for adding something to the start or [0] index of the array
 a.shift                            # Removing something from starting or [0] index of the array
 a.push('testing')                  # Adding something to the end of the array
+a << 25                            # << known as shovel operator will also append new element to the end of the array
+
 a.pop                              # Removing something from the end of the array
 
 a.append('Test')                   # Same like push, to add something to the end
